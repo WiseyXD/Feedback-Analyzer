@@ -8,11 +8,11 @@ import Form from "./Components/Form";
 import Error from "./Components/Error";
 function App() {
 	return (
-		<>
+		<div className=" bg-veryLightGray">
 			<Header />
 			<RouterProvider router={appRouter} />
 			<Footer />
-		</>
+		</div>
 	);
 }
 
