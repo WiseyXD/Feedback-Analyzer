@@ -8,7 +8,7 @@ import Form from "./Components/Form";
 import Error from "./Components/Error";
 function App() {
 	return (
-		<div className=" bg-veryLightGray">
+		<div className="bg-veryLightGray backGroundImage">
 			<Header />
 			<RouterProvider router={appRouter} />
 			<Footer />
