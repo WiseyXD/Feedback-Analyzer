@@ -1,5 +1,8 @@
 import React from "react";
 import Illustration from "../assets/images/illustration-intro.svg";
+import Avatar from "../assets/images/avatar-anisha.png";
+import Avatar2 from "../assets/images/avatar-richard.png";
+import Avatar3 from "../assets/images/avatar-shanai.png";
 export default function Body() {
 	return (
 		<>
@@ -135,7 +138,57 @@ export default function Body() {
 					</div>
 				</div>
 			</div>
-			<div className="max-w-full "></div>
+			<div className="max-w-full w-3/4 mx-auto my-0 mt-6 flex flex-col items-center mb-7">
+				<h2 className="my-5 text-2xl font-semibold">
+					What they have said..
+				</h2>
+				<div className="flex flex-col xl:flex-row items-center xl:gap-7">
+					<div className="flex flex-col items-center py-8 my-2 bg-gray-100">
+						<img src={Avatar} alt="" className="my-6" />
+						<h3 className="text-lg font-semibold">Nikita Ghare</h3>
+						<p className="text-center w-2/3">
+							" Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Aliquam neque sit quasi reprehenderit quod
+							recusandae vel, nobis autem veritatis molestiae qui,
+							sunt doloremque eligendi facilis? "
+						</p>
+					</div>
+					<div className="flex flex-col items-center py-8 my-2 bg-gray-100">
+						<img src={Avatar2} alt="" className="my-6" />
+						<h3 className="text-lg font-semibold">Nikita Ghare</h3>
+						<p className="text-center w-2/3">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Aliquam neque sit quasi reprehenderit quod
+							recusandae vel, nobis autem veritatis molestiae qui,
+							sunt doloremque eligendi facilis?
+						</p>
+					</div>
+					<div className="flex flex-col items-center py-8 my-2 bg-gray-100 ">
+						<img src={Avatar3} alt="" className="my-6" />
+						<h3 className="text-lg font-semibold">Nikita Ghare</h3>
+						<p className="text-center w-2/3">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Aliquam neque sit quasi reprehenderit quod
+							recusandae vel, nobis autem veritatis molestiae qui,
+							sunt doloremque eligendi facilis?
+						</p>
+					</div>
+				</div>
+				<button
+					className="
+					bg-brightRed
+					hover:bg-brightRedLight
+					text-white
+					px-8
+					py-2
+					rounded-full
+					my-14
+					cursor-pointer
+					"
+				>
+					Get Started
+				</button>
+			</div>
 			<div className="w-full bg-brightRed py-12 finalSection">
 				<div className="max-w-full w-3/4 mx-auto my-0 mt-6">
 					<div className="flex flex-col text-center">
