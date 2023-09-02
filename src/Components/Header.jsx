@@ -35,7 +35,7 @@ export default function Header() {
 				</div>
 				{isMenuOpen && (
 					<div className="flex flex-col mt-7 items-center justify-center gap-y-3">
-						<ul className=" bg-white w-96 h-60 flex flex-col justify-center items-center gap-y-7 shadow-md rounded-md">
+						<ul className=" bg-white h-60 w-full flex flex-col justify-center items-center gap-y-7 shadow-md rounded-md">
 							<li className=" text-veryDarkBlue">ABOUT</li>
 							<li className=" text-veryDarkBlue">CONTACT</li>
 							<li className=" text-veryDarkBlue">PRICING</li>
