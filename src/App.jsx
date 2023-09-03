@@ -6,6 +6,7 @@ import Body from "./Components/Body";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
 import Error from "./Components/Error";
+import Signup from "./Components/Signup";
 function App() {
 	return (
 		<div className="bg-veryLightGray backGroundImage">
@@ -26,6 +27,10 @@ const appRouter = createBrowserRouter([
 		path: "/form",
 		element: <Form />,
 		errorElement: <Error />,
+	},
+	{
+		path: "/signupForm",
+		element: <Signup />,
 	},
 ]);
 

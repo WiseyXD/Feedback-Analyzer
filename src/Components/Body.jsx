@@ -3,6 +3,7 @@ import Illustration from "../assets/images/illustration-intro.svg";
 import Avatar from "../assets/images/avatar-anisha.png";
 import Avatar2 from "../assets/images/avatar-richard.png";
 import Avatar3 from "../assets/images/avatar-shanai.png";
+import { Link } from "react-router-dom";
 export default function Body() {
 	return (
 		<>
@@ -21,8 +22,9 @@ export default function Body() {
 							illum sed maiores numquam similique eum neque dolore
 							vero aliquam odio?
 						</p>
-						<button
-							className="
+						<Link to="/signupForm">
+							<button
+								className="
 					bg-brightRed
 					hover:bg-brightRedLight
 					text-white
@@ -32,9 +34,10 @@ export default function Body() {
 					mt-5
 					cursor-pointer
 					"
-						>
-							Get Started
-						</button>
+							>
+								Get Started
+							</button>
+						</Link>
 					</div>
 				</div>
 
@@ -174,6 +177,7 @@ export default function Body() {
 						</p>
 					</div>
 				</div>
+				<Link to="/signupForm"></Link>
 				<button
 					className="
 					bg-brightRed
@@ -196,8 +200,9 @@ export default function Body() {
 							Simplify how your reports generate today.
 						</h1>
 						<div>
-							<button
-								className="
+							<Link to="/signupForm">
+								<button
+									className="
 					text-brightRed
 					hover:bg-veryPaleRed
 					bg-white
@@ -206,9 +211,10 @@ export default function Body() {
 					rounded-full
 					mt-5
 					cursor-pointer"
-							>
-								Get Started
-							</button>
+								>
+									Get Started
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>
