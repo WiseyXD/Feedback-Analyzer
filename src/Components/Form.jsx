@@ -10,7 +10,11 @@ export default function Form() {
 		<div className="max-w-full w-3/4 mx-auto my-0">
 			<div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-3">
 				<div className="flex flex-col border my-6 px-6 py-4 border-slate-900 shadow-lg shadow-slate-400">
-					<img src={Meeting} alt="" className="lg:w-full" />
+					<img
+						src={Meeting}
+						alt=""
+						className="lg:h-60 lg:overflow-hidden"
+					/>
 					<div className="flex flex-col gap-5">
 						<div className="flex justify-start items-center gap-3 text-slate-500">
 							<AiOutlineLock />
@@ -48,11 +52,14 @@ export default function Form() {
 					</div>
 				</div>
 				<div className="flex flex-col border my-6 px-6 py-4 border-slate-900 shadow-lg shadow-slate-400">
-					<img
-						src={Deep}
-						alt=""
-						className="lg:h-32 lg:overflow-hidden"
-					/>
+					<div className="lg:h-60 lg:overflow-hidden">
+						<img
+							src={Deep}
+							alt=""
+							className="lg:w-full lg:overflow-hidden"
+						/>
+					</div>
+
 					<div className="flex flex-col gap-5">
 						<div className="flex justify-start items-center gap-3 text-slate-500">
 							<AiOutlineLock />
@@ -93,7 +100,7 @@ export default function Form() {
 					<img
 						src={Orator}
 						alt=""
-						className="lg:h-32 lg:overflow-hidden"
+						className="lg:h-60 lg:overflow-hidden"
 					/>
 					<div className="flex flex-col gap-5">
 						<div className="flex justify-start items-center gap-3 text-slate-500">
@@ -135,7 +142,7 @@ export default function Form() {
 					<img
 						src={Meeting}
 						alt=""
-						className="lg:h-32 lg:overflow-hidden"
+						className="lg:h-60 lg:overflow-hidden"
 					/>
 					<div className="flex flex-col gap-5">
 						<div className="flex justify-start items-center gap-3 text-slate-500">
@@ -177,7 +184,7 @@ export default function Form() {
 					<img
 						src={Deep}
 						alt=""
-						className="lg:h-32 lg:overflow-hidden"
+						className="lg:h-60 lg:overflow-hidden"
 					/>
 					<div className="flex flex-col gap-5">
 						<div className="flex justify-start items-center gap-3 text-slate-500">
@@ -219,7 +226,7 @@ export default function Form() {
 					<img
 						src={Orator}
 						alt=""
-						className="lg:h-32 lg:overflow-hidden"
+						className="lg:h-60 lg:overflow-hidden"
 					/>
 					<div className="flex flex-col gap-5">
 						<div className="flex justify-start items-center gap-3 text-slate-500">
