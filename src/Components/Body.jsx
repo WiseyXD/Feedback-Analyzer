@@ -177,9 +177,9 @@ export default function Body() {
 						</p>
 					</div>
 				</div>
-				<Link to="/signupForm"></Link>
-				<button
-					className="
+				<Link to="/signupForm">
+					<button
+						className="
 					bg-brightRed
 					hover:bg-brightRedLight
 					text-white
@@ -189,9 +189,10 @@ export default function Body() {
 					my-14
 					cursor-pointer
 					"
-				>
-					Get Started
-				</button>
+					>
+						Get Started
+					</button>
+				</Link>
 			</div>
 			<div className="w-full bg-brightRed py-12 finalSection">
 				<div className="max-w-full w-3/4 mx-auto my-0 mt-6">

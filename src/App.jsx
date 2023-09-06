@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Form from "./Components/Form";
 import Error from "./Components/Error";
 import Signup from "./Components/Signup";
+// Peace
 function App() {
 	return (
 		<div className="bg-veryLightGray backGroundImage">
